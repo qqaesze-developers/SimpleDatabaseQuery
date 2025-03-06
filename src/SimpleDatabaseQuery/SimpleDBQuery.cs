@@ -8,7 +8,7 @@ public class SimpleDBQuery(string pathToDB)
     protected readonly SqliteCommand command = new();
 
     /// <summary>
-    /// Выполнить запрос к базе данных
+    /// Run a database query [Выполнить запрос к базе данных]
     /// </summary>
     /// <param name="query"></param>
     public void Query(string query)
@@ -21,7 +21,7 @@ public class SimpleDBQuery(string pathToDB)
     }
 
     /// <summary>
-    /// Получить ответ на отправленный запрос
+    /// Receive a response to the sent request [Получить ответ на отправленный запрос]
     /// </summary>
     /// <returns></returns>
     public List<Dictionary<string, object>> GetAnswer()

@@ -6,23 +6,27 @@
     <Nullable>enable</Nullable>
     <PackageTags>database, db, sqlite</PackageTags>
     <Title>SimpleDatabaseQuery</Title>
-    <Authors>ivnktrv (owner qqasze developers)</Authors>
+    <Authors>qqaesze developers</Authors>
     <Company>qqasze developers</Company>
-    <Description>[EN] Simple class for performing database queries
-[RU] Простой класс для выполнения запросов к базе данных</Description>
+    <Description>[EN] Simple class for performing database queries / [RU] Простой класс для выполнения запросов к базе данных</Description>
     <RepositoryUrl>https://github.com/qqaesze-developers/SimpleDatabaseQuery</RepositoryUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
+    <PackageIcon>SimpleDatabaseQuery_small_logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\LICENSE">
+    <None Include="..\..\res\SimpleDatabaseQuery_small_logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
